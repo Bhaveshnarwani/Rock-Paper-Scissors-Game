@@ -1,0 +1,48 @@
+main{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+#title{
+    width: 100%;
+    background-color: black;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+}
+#images{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 50px;
+}
+#images img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#images img:hover{
+    border: 5px solid black;
+}
+#score{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 50px;
+
+}
+#score .numbers{
+    font-size: 2rem;
+    font-weight: lighter;
+}
+#showWinner{
+    width: 200px;
+    background-color: black;
+    padding: 0.5rem;
+    color: whitesmoke;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin-left: 35%;  
+} 
